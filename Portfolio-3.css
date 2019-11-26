@@ -1,0 +1,141 @@
+/* Styling for Nav Bar */
+.navbar {
+    background-color:#2A90AB;
+    
+    
+}
+
+/* Hero Image Styling */
+body, html {
+    height: 100%;
+  
+    font-family:'Rubik',sans-serif;
+  }
+  .navbar {
+    font-family:'Rubik',sans-serif;
+    
+
+
+  }
+  .hero-image {
+    background-image: url("https://images.unsplash.com/photo-1573162915955-6a8ba9d2fe20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:20px;
+    padding-top:10px;
+  }
+  /* https://images.unsplash.com/photo-1513966007261-5a86a5284471?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80 */
+  
+  .hero-text {
+    text-align: left;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: green;
+    color: white; 
+  }
+
+/* Styling for Icons */
+.flex-container {
+    display: flex;
+    font-family: 'Rubik', sans-serif
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
+  }
+/* Styling for Soft Skills */
+#soft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: #EAF7FB;
+    font-family: 'Rubik', sans-serif
+   
+  }
+  
+  #soft > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #EAF7FB;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+  }
+#attention{
+    margin-top: 45px;
+  }
+
+  /* Styling for Tech Header */
+  #tech {
+    font-family: 'Rubik', sans-serif;
+  }
+  /* Styling for Projects  */
+  
+
+  
+
+/* Styling for About Me Section */
+#about-me{
+    font-size: 40px;
+    font-family: 'Rubik', sans-serif;
+
+}
+#about-me-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 140%;
+}
+.about{
+  padding: 0 25% 
+}
+/* Styling for form */
+.form__container {
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 16px;
+    padding: 32px;
+    box-shadow: bs;
+    border-radius: 4px;
+    font-family: 'Rubik', sans-serif;
+  }
+
+
+/* Styling for Footer */
+ #footer {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding:0;
+    margin:0;
+    font-family: 'Rubik', sans-serif;
+
+ 
+   
+  }
+  
+  #footer > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif;
+  }
+
